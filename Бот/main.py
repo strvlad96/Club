@@ -2,6 +2,8 @@ import json
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
 
+# pip install python-telegram-bot==20.3
+
 # Этапы диалога
 NAME, SURNAME, CLASS = range(3)
 
